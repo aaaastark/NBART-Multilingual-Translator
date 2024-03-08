@@ -12,3 +12,8 @@
  * From Chinese to English: "我们可以帮助您创建一份具有度假出租房屋和相关信息（如电子邮件地址，网站和指向个人资料的链接）的Page成员列表。"→ "We can help you create a list of Page members with vacation rental properties and associated information like email addresses, websites, and links to profiles."
 
 > Please note that machine translation is not always accurate or appropriate in every situation, so it may be necessary to review and edit translated text before using it.
+
+
+```Python
+from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
+```
